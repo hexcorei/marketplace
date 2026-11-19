@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1390" height="740" viewBox="0 0 1390 740" role="img" aria-label="ERD Web Marketplace TokoKita"><title>ERD Web Marketplace TokoKita</title><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#495057"/></marker></defs><rect width="100%" height="100%" fill="#ffffff"/><text x="30" y="32" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#212529" font-weight="bold" text-anchor="start">ERD Web Marketplace (TokoKita)</text>
+<polyline points="310,113 345,113 345,91 380,91" fill="none" stroke="#495057" stroke-width="1.6"/>
+<text x="322" y="107" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d63384" font-weight="bold" text-anchor="middle">N</text>
+<text x="364" y="85" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d63384" font-weight="bold" text-anchor="middle">1</text>
+<polyline points="660,91 695,91 695,135 730,135" fill="none" stroke="#495057" stroke-width="1.6"/>
+<text x="676" y="85" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d63384" font-weight="bold" text-anchor="middle">1</text>
+<text x="714" y="129" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d63384" font-weight="bold" text-anchor="middle">N</text>
+<polyline points="450,256 450,390" fill="none" stroke="#495057" stroke-width="1.6"/>
+<text x="440" y="272" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d63384" font-weight="bold" text-anchor="middle">1</text>
+<text x="440" y="382" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d63384" font-weight="bold" text-anchor="middle">N</text>
+<text x="460" y="330" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6c757d" font-weight="normal" text-anchor="start" font-style="italic">seller_id</text>
+<polyline points="130,190 130,345 410,345 410,390" fill="none" stroke="#495057" stroke-width="1.6"/>
+<text x="120" y="206" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d63384" font-weight="bold" text-anchor="middle">N</text>
+<text x="400" y="382" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d63384" font-weight="bold" text-anchor="middle">1</text>
+<text x="180" y="339" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6c757d" font-weight="normal" text-anchor="start" font-style="italic">product_id</text>
+<polyline points="310,431 345,431 345,475 380,475" fill="none" stroke="#495057" stroke-width="1.6"/>
+<text x="322" y="425" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d63384" font-weight="bold" text-anchor="middle">1</text>
+<text x="364" y="469" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d63384" font-weight="bold" text-anchor="middle">N</text>
+<polyline points="660,431 695,431 695,475 730,475" fill="none" stroke="#495057" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="676" y="425" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d63384" font-weight="bold" text-anchor="middle">1</text>
+<text x="714" y="469" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d63384" font-weight="bold" text-anchor="middle">N</text>
+<polyline points="800,300 800,390" fill="none" stroke="#495057" stroke-width="1.6"/>
+<text x="790" y="316" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d63384" font-weight="bold" text-anchor="middle">1</text>
+<text x="790" y="382" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d63384" font-weight="bold" text-anchor="middle">N</text>
+<text x="810" y="372" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6c757d" font-weight="normal" text-anchor="start" font-style="italic">order_id</text>
+<polyline points="600,256 600,345 960,345 960,390" fill="none" stroke="#495057" stroke-width="1.6"/>
+<text x="590" y="272" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d63384" font-weight="bold" text-anchor="middle">1</text>
+<text x="950" y="382" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#d63384" font-weight="bold" text-anchor="middle">N</text>
+<text x="870" y="339" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6c757d" font-weight="normal" text-anchor="start" font-style="italic">seller_id</text>
+<rect x="380" y="50" width="280" height="206" rx="6" fill="#ffffff" stroke="#0d6efd" stroke-width="1.6"/>
+<path d="M380,80 V56 Q380,50 386,50 H654 Q660,50 660,56 V80 Z" fill="#0d6efd"/>
+<text x="520.0" y="71" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">users</text>
+<rect x="381" y="80" width="278" height="22" rx="0" fill="#fff3cd" stroke="#fff3cd" stroke-width="0"/>
+<text x="390" y="95" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="bold" text-anchor="start">id</text>
+<text x="522" y="95" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">INT UNSIGNED</text>
+<text x="650" y="95" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#8a5a00" font-weight="bold" text-anchor="end">PK</text>
+<line x1="381" y1="102" x2="659" y2="102" stroke="#f1f3f5" stroke-width="1"/>
+<text x="390" y="117" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">nama</text>
+<text x="522" y="117" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">VARCHAR(100)</text>
+<line x1="381" y1="124" x2="659" y2="124" stroke="#f1f3f5" stroke-width="1"/>
+<text x="390" y="139" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">email</text>
+<text x="522" y="139" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">VARCHAR(150)</text>
+<text x="650" y="139" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#495057" font-weight="bold" text-anchor="end">UK</text>
+<line x1="381" y1="146" x2="659" y2="146" stroke="#f1f3f5" stroke-width="1"/>
+<text x="390" y="161" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">password_hash</text>
+<text x="522" y="161" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">VARCHAR(255)</text>
+<line x1="381" y1="168" x2="659" y2="168" stroke="#f1f3f5" stroke-width="1"/>
+<text x="390" y="183" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">role</text>
+<text x="522" y="183" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">ENUM</text>
+<line x1="381" y1="190" x2="659" y2="190" stroke="#f1f3f5" stroke-width="1"/>
+<text x="390" y="205" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">telepon</text>
+<text x="522" y="205" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">VARCHAR(20)</text>
+<line x1="381" y1="212" x2="659" y2="212" stroke="#f1f3f5" stroke-width="1"/>
+<text x="390" y="227" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">alamat</text>
+<text x="522" y="227" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">TEXT</text>
+<line x1="381" y1="234" x2="659" y2="234" stroke="#f1f3f5" stroke-width="1"/>
+<text x="390" y="249" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">created_at</text>
+<text x="522" y="249" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">TIMESTAMP</text>
+<rect x="30" y="390" width="280" height="96" rx="6" fill="#ffffff" stroke="#0d6efd" stroke-width="1.6"/>
+<path d="M30,420 V396 Q30,390 36,390 H304 Q310,390 310,396 V420 Z" fill="#0d6efd"/>
+<text x="170.0" y="411" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">categories</text>
+<rect x="31" y="420" width="278" height="22" rx="0" fill="#fff3cd" stroke="#fff3cd" stroke-width="0"/>
+<text x="40" y="435" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="bold" text-anchor="start">id</text>
+<text x="172" y="435" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">INT UNSIGNED</text>
+<text x="300" y="435" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#8a5a00" font-weight="bold" text-anchor="end">PK</text>
+<line x1="31" y1="442" x2="309" y2="442" stroke="#f1f3f5" stroke-width="1"/>
+<text x="40" y="457" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">nama</text>
+<text x="172" y="457" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">VARCHAR(60)</text>
+<text x="300" y="457" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#495057" font-weight="bold" text-anchor="end">UK</text>
+<line x1="31" y1="464" x2="309" y2="464" stroke="#f1f3f5" stroke-width="1"/>
+<text x="40" y="479" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">slug</text>
+<text x="172" y="479" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">VARCHAR(80)</text>
+<text x="300" y="479" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#495057" font-weight="bold" text-anchor="end">UK</text>
+<rect x="380" y="390" width="280" height="272" rx="6" fill="#ffffff" stroke="#0d6efd" stroke-width="1.6"/>
+<path d="M380,420 V396 Q380,390 386,390 H654 Q660,390 660,396 V420 Z" fill="#0d6efd"/>
+<text x="520.0" y="411" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">products</text>
+<rect x="381" y="420" width="278" height="22" rx="0" fill="#fff3cd" stroke="#fff3cd" stroke-width="0"/>
+<text x="390" y="435" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="bold" text-anchor="start">id</text>
+<text x="522" y="435" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">INT UNSIGNED</text>
+<text x="650" y="435" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#8a5a00" font-weight="bold" text-anchor="end">PK</text>
+<line x1="381" y1="442" x2="659" y2="442" stroke="#f1f3f5" stroke-width="1"/>
+<rect x="381" y="442" width="278" height="22" rx="0" fill="#e7f1ff" stroke="#e7f1ff" stroke-width="0"/>
+<text x="390" y="457" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">seller_id</text>
+<text x="522" y="457" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">INT UNSIGNED</text>
+<text x="650" y="457" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0a58ca" font-weight="bold" text-anchor="end">FK</text>
+<line x1="381" y1="464" x2="659" y2="464" stroke="#f1f3f5" stroke-width="1"/>
+<rect x="381" y="464" width="278" height="22" rx="0" fill="#e7f1ff" stroke="#e7f1ff" stroke-width="0"/>
+<text x="390" y="479" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">category_id</text>
+<text x="522" y="479" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">INT UNSIGNED</text>
+<text x="650" y="479" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0a58ca" font-weight="bold" text-anchor="end">FK</text>
+<line x1="381" y1="486" x2="659" y2="486" stroke="#f1f3f5" stroke-width="1"/>
+<text x="390" y="501" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">nama</text>
+<text x="522" y="501" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">VARCHAR(150)</text>
+<line x1="381" y1="508" x2="659" y2="508" stroke="#f1f3f5" stroke-width="1"/>
+<text x="390" y="523" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">deskripsi</text>
+<text x="522" y="523" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">TEXT</text>
+<line x1="381" y1="530" x2="659" y2="530" stroke="#f1f3f5" stroke-width="1"/>
+<text x="390" y="545" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">harga</text>
+<text x="522" y="545" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">DECIMAL(12,2)</text>
+<line x1="381" y1="552" x2="659" y2="552" stroke="#f1f3f5" stroke-width="1"/>
+<text x="390" y="567" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">stok</text>
+<text x="522" y="567" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">INT UNSIGNED</text>
+<line x1="381" y1="574" x2="659" y2="574" stroke="#f1f3f5" stroke-width="1"/>
+<text x="390" y="589" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">gambar</text>
+<text x="522" y="589" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">VARCHAR(64)</text>
+<line x1="381" y1="596" x2="659" y2="596" stroke="#f1f3f5" stroke-width="1"/>
+<text x="390" y="611" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">is_active</text>
+<text x="522" y="611" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">TINYINT(1)</text>
+<line x1="381" y1="618" x2="659" y2="618" stroke="#f1f3f5" stroke-width="1"/>
+<text x="390" y="633" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">created_at</text>
+<text x="522" y="633" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">TIMESTAMP</text>
+<line x1="381" y1="640" x2="659" y2="640" stroke="#f1f3f5" stroke-width="1"/>
+<text x="390" y="655" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">updated_at</text>
+<text x="522" y="655" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">TIMESTAMP</text>
+<rect x="30" y="50" width="280" height="140" rx="6" fill="#ffffff" stroke="#198754" stroke-width="1.6"/>
+<path d="M30,80 V56 Q30,50 36,50 H304 Q310,50 310,56 V80 Z" fill="#198754"/>
+<text x="170.0" y="71" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">cart_items</text>
+<rect x="31" y="80" width="278" height="22" rx="0" fill="#fff3cd" stroke="#fff3cd" stroke-width="0"/>
+<text x="40" y="95" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="bold" text-anchor="start">id</text>
+<text x="172" y="95" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">INT UNSIGNED</text>
+<text x="300" y="95" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#8a5a00" font-weight="bold" text-anchor="end">PK</text>
+<line x1="31" y1="102" x2="309" y2="102" stroke="#f1f3f5" stroke-width="1"/>
+<rect x="31" y="102" width="278" height="22" rx="0" fill="#e7f1ff" stroke="#e7f1ff" stroke-width="0"/>
+<text x="40" y="117" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">user_id</text>
+<text x="172" y="117" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">INT UNSIGNED</text>
+<text x="300" y="117" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0a58ca" font-weight="bold" text-anchor="end">FK</text>
+<line x1="31" y1="124" x2="309" y2="124" stroke="#f1f3f5" stroke-width="1"/>
+<rect x="31" y="124" width="278" height="22" rx="0" fill="#e7f1ff" stroke="#e7f1ff" stroke-width="0"/>
+<text x="40" y="139" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">product_id</text>
+<text x="172" y="139" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">INT UNSIGNED</text>
+<text x="300" y="139" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0a58ca" font-weight="bold" text-anchor="end">FK</text>
+<line x1="31" y1="146" x2="309" y2="146" stroke="#f1f3f5" stroke-width="1"/>
+<text x="40" y="161" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">qty</text>
+<text x="172" y="161" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">INT UNSIGNED</text>
+<line x1="31" y1="168" x2="309" y2="168" stroke="#f1f3f5" stroke-width="1"/>
+<text x="40" y="183" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">created_at</text>
+<text x="172" y="183" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">TIMESTAMP</text>
+<rect x="730" y="50" width="280" height="250" rx="6" fill="#ffffff" stroke="#198754" stroke-width="1.6"/>
+<path d="M730,80 V56 Q730,50 736,50 H1004 Q1010,50 1010,56 V80 Z" fill="#198754"/>
+<text x="870.0" y="71" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">orders</text>
+<rect x="731" y="80" width="278" height="22" rx="0" fill="#fff3cd" stroke="#fff3cd" stroke-width="0"/>
+<text x="740" y="95" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="bold" text-anchor="start">id</text>
+<text x="872" y="95" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">INT UNSIGNED</text>
+<text x="1000" y="95" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#8a5a00" font-weight="bold" text-anchor="end">PK</text>
+<line x1="731" y1="102" x2="1009" y2="102" stroke="#f1f3f5" stroke-width="1"/>
+<text x="740" y="117" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">kode_pesanan</text>
+<text x="872" y="117" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">VARCHAR(25)</text>
+<text x="1000" y="117" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#495057" font-weight="bold" text-anchor="end">UK</text>
+<line x1="731" y1="124" x2="1009" y2="124" stroke="#f1f3f5" stroke-width="1"/>
+<rect x="731" y="124" width="278" height="22" rx="0" fill="#e7f1ff" stroke="#e7f1ff" stroke-width="0"/>
+<text x="740" y="139" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">buyer_id</text>
+<text x="872" y="139" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">INT UNSIGNED</text>
+<text x="1000" y="139" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0a58ca" font-weight="bold" text-anchor="end">FK</text>
+<line x1="731" y1="146" x2="1009" y2="146" stroke="#f1f3f5" stroke-width="1"/>
+<text x="740" y="161" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">total</text>
+<text x="872" y="161" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">DECIMAL(14,2)</text>
+<line x1="731" y1="168" x2="1009" y2="168" stroke="#f1f3f5" stroke-width="1"/>
+<text x="740" y="183" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">status</text>
+<text x="872" y="183" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">ENUM</text>
+<line x1="731" y1="190" x2="1009" y2="190" stroke="#f1f3f5" stroke-width="1"/>
+<text x="740" y="205" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">nama_penerima</text>
+<text x="872" y="205" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">VARCHAR(100)</text>
+<line x1="731" y1="212" x2="1009" y2="212" stroke="#f1f3f5" stroke-width="1"/>
+<text x="740" y="227" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">telepon_penerima</text>
+<text x="872" y="227" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">VARCHAR(20)</text>
+<line x1="731" y1="234" x2="1009" y2="234" stroke="#f1f3f5" stroke-width="1"/>
+<text x="740" y="249" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">alamat_pengiriman</text>
+<text x="872" y="249" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">TEXT</text>
+<line x1="731" y1="256" x2="1009" y2="256" stroke="#f1f3f5" stroke-width="1"/>
+<text x="740" y="271" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">catatan</text>
+<text x="872" y="271" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">VARCHAR(255)</text>
+<line x1="731" y1="278" x2="1009" y2="278" stroke="#f1f3f5" stroke-width="1"/>
+<text x="740" y="293" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">created_at</text>
+<text x="872" y="293" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">TIMESTAMP</text>
+<rect x="730" y="390" width="280" height="206" rx="6" fill="#ffffff" stroke="#198754" stroke-width="1.6"/>
+<path d="M730,420 V396 Q730,390 736,390 H1004 Q1010,390 1010,396 V420 Z" fill="#198754"/>
+<text x="870.0" y="411" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">order_items</text>
+<rect x="731" y="420" width="278" height="22" rx="0" fill="#fff3cd" stroke="#fff3cd" stroke-width="0"/>
+<text x="740" y="435" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="bold" text-anchor="start">id</text>
+<text x="872" y="435" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">INT UNSIGNED</text>
+<text x="1000" y="435" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#8a5a00" font-weight="bold" text-anchor="end">PK</text>
+<line x1="731" y1="442" x2="1009" y2="442" stroke="#f1f3f5" stroke-width="1"/>
+<rect x="731" y="442" width="278" height="22" rx="0" fill="#e7f1ff" stroke="#e7f1ff" stroke-width="0"/>
+<text x="740" y="457" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">order_id</text>
+<text x="872" y="457" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">INT UNSIGNED</text>
+<text x="1000" y="457" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0a58ca" font-weight="bold" text-anchor="end">FK</text>
+<line x1="731" y1="464" x2="1009" y2="464" stroke="#f1f3f5" stroke-width="1"/>
+<rect x="731" y="464" width="278" height="22" rx="0" fill="#e7f1ff" stroke="#e7f1ff" stroke-width="0"/>
+<text x="740" y="479" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">product_id</text>
+<text x="872" y="479" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">INT UNSIGNED</text>
+<text x="1000" y="479" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0a58ca" font-weight="bold" text-anchor="end">FK</text>
+<line x1="731" y1="486" x2="1009" y2="486" stroke="#f1f3f5" stroke-width="1"/>
+<rect x="731" y="486" width="278" height="22" rx="0" fill="#e7f1ff" stroke="#e7f1ff" stroke-width="0"/>
+<text x="740" y="501" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">seller_id</text>
+<text x="872" y="501" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">INT UNSIGNED</text>
+<text x="1000" y="501" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0a58ca" font-weight="bold" text-anchor="end">FK</text>
+<line x1="731" y1="508" x2="1009" y2="508" stroke="#f1f3f5" stroke-width="1"/>
+<text x="740" y="523" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">nama_produk</text>
+<text x="872" y="523" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">VARCHAR(150)</text>
+<line x1="731" y1="530" x2="1009" y2="530" stroke="#f1f3f5" stroke-width="1"/>
+<text x="740" y="545" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">harga_satuan</text>
+<text x="872" y="545" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">DECIMAL(12,2)</text>
+<line x1="731" y1="552" x2="1009" y2="552" stroke="#f1f3f5" stroke-width="1"/>
+<text x="740" y="567" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">qty</text>
+<text x="872" y="567" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">INT UNSIGNED</text>
+<line x1="731" y1="574" x2="1009" y2="574" stroke="#f1f3f5" stroke-width="1"/>
+<text x="740" y="589" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">subtotal</text>
+<text x="872" y="589" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">DECIMAL(14,2)</text>
+<rect x="1080" y="50" width="280" height="140" rx="6" fill="#ffffff" stroke="#6c757d" stroke-width="1.6" stroke-dasharray="6 4"/>
+<path d="M1080,80 V56 Q1080,50 1086,50 H1354 Q1360,50 1360,56 V80 Z" fill="#6c757d"/>
+<text x="1220.0" y="71" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#ffffff" font-weight="bold" text-anchor="middle">login_attempts</text>
+<rect x="1081" y="80" width="278" height="22" rx="0" fill="#fff3cd" stroke="#fff3cd" stroke-width="0"/>
+<text x="1090" y="95" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="bold" text-anchor="start">id</text>
+<text x="1222" y="95" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">INT UNSIGNED</text>
+<text x="1350" y="95" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#8a5a00" font-weight="bold" text-anchor="end">PK</text>
+<line x1="1081" y1="102" x2="1359" y2="102" stroke="#f1f3f5" stroke-width="1"/>
+<text x="1090" y="117" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">aksi</text>
+<text x="1222" y="117" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">VARCHAR(10)</text>
+<line x1="1081" y1="124" x2="1359" y2="124" stroke="#f1f3f5" stroke-width="1"/>
+<text x="1090" y="139" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">email</text>
+<text x="1222" y="139" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">VARCHAR(150)</text>
+<line x1="1081" y1="146" x2="1359" y2="146" stroke="#f1f3f5" stroke-width="1"/>
+<text x="1090" y="161" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">ip_address</text>
+<text x="1222" y="161" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">VARCHAR(45)</text>
+<line x1="1081" y1="168" x2="1359" y2="168" stroke="#f1f3f5" stroke-width="1"/>
+<text x="1090" y="183" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">attempted_at</text>
+<text x="1222" y="183" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="start">TIMESTAMP</text>
+<text x="1220.0" y="208" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6c757d" font-weight="normal" text-anchor="middle" font-style="italic">(tabel keamanan, tanpa FK)</text>
+<rect x="30" y="668" width="1330" height="58" rx="6" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+<rect x="46" y="680" width="16" height="16" rx="0" fill="#fff3cd" stroke="#e0c36a" stroke-width="1"/>
+<text x="68" y="693" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">PK = Primary Key</text>
+<rect x="200" y="680" width="16" height="16" rx="0" fill="#e7f1ff" stroke="#9ec5fe" stroke-width="1"/>
+<text x="222" y="693" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">FK = Foreign Key</text>
+<text x="350" y="693" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">UK = Unique Key</text>
+<text x="480" y="693" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">1 = satu    N = banyak (one-to-many)</text>
+<polyline points="760,688 810,688" fill="none" stroke="#495057" stroke-width="1.6"/>
+<text x="818" y="693" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">relasi wajib</text>
+<polyline points="930,688 980,688" fill="none" stroke="#495057" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="988" y="693" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#212529" font-weight="normal" text-anchor="start">FK boleh NULL (ON DELETE SET NULL)</text>
+<rect x="46" y="704" width="14" height="10" rx="0" fill="#0d6efd" stroke="#0d6efd" stroke-width="1"/>
+<text x="66" y="714" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#212529" font-weight="normal" text-anchor="start">entitas inti</text>
+<rect x="170" y="704" width="14" height="10" rx="0" fill="#198754" stroke="#198754" stroke-width="1"/>
+<text x="190" y="714" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#212529" font-weight="normal" text-anchor="start">entitas transaksi</text>
+<rect x="330" y="704" width="14" height="10" rx="0" fill="#6c757d" stroke="#6c757d" stroke-width="1"/>
+<text x="350" y="714" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#212529" font-weight="normal" text-anchor="start">tabel pendukung keamanan</text></svg>

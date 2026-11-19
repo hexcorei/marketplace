@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="1540" viewBox="0 0 950 1540" role="img" aria-label="Alur proses transaksi pemesanan"><title>Alur proses transaksi pemesanan</title><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#495057"/></marker></defs><rect width="100%" height="100%" fill="#ffffff"/><text x="30" y="32" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#212529" font-weight="bold" text-anchor="start">Alur Proses Transaksi: dari Memilih Produk hingga Membuat Pesanan</text>
+<rect x="380" y="60" width="140" height="40" rx="20" fill="#198754" stroke="#212529" stroke-width="1.6"/>
+<text x="450" y="85" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">MULAI</text>
+<rect x="290.0" y="120.0" width="320" height="60" rx="8" fill="#e7f1ff" stroke="#0d6efd" stroke-width="1.6"/>
+<text x="450" y="140.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">Pembeli membuka halaman Daftar Produk</text>
+<text x="450" y="158.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">(cari / filter kategori / pagination)</text>
+<rect x="290.0" y="195.0" width="320" height="60" rx="8" fill="#e7f1ff" stroke="#0d6efd" stroke-width="1.6"/>
+<text x="450" y="215.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">Pembeli memilih produk</text>
+<text x="450" y="233.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">→ halaman Detail Produk</text>
+<polygon points="450,277.0 600.0,325 450,373.0 300.0,325" fill="#fff3cd" stroke="#e0a800" stroke-width="1.5"/>
+<text x="450" y="316.5" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#212529" font-weight="normal" text-anchor="middle">Sudah login sebagai</text>
+<text x="450" y="333.5" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#212529" font-weight="normal" text-anchor="middle">pembeli?</text>
+<rect x="290.0" y="400.0" width="320" height="60" rx="8" fill="#e7f1ff" stroke="#0d6efd" stroke-width="1.6"/>
+<text x="450" y="420.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">Mengisi jumlah lalu klik</text>
+<text x="450" y="438.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">&quot;Tambah ke Keranjang&quot; (POST + token CSRF)</text>
+<polygon points="450,487.0 600.0,535 450,583.0 300.0,535" fill="#fff3cd" stroke="#e0a800" stroke-width="1.5"/>
+<text x="450" y="526.5" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#212529" font-weight="normal" text-anchor="middle">Produk aktif &amp;</text>
+<text x="450" y="543.5" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#212529" font-weight="normal" text-anchor="middle">stok mencukupi?</text>
+<rect x="290.0" y="610.0" width="320" height="60" rx="8" fill="#e7f1ff" stroke="#0d6efd" stroke-width="1.6"/>
+<text x="450" y="630.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">Simpan ke tabel cart_items</text>
+<text x="450" y="648.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">(INSERT, atau UPDATE qty bila sudah ada)</text>
+<rect x="280.0" y="694.0" width="340" height="42" rx="8" fill="#e7f1ff" stroke="#0d6efd" stroke-width="1.6"/>
+<text x="450" y="714.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">Membuka Keranjang: ubah jumlah / hapus item</text>
+<rect x="270.0" y="779.0" width="360" height="42" rx="8" fill="#e7f1ff" stroke="#0d6efd" stroke-width="1.6"/>
+<text x="450" y="799.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">Checkout: isi nama, telepon &amp; alamat penerima</text>
+<rect x="270.0" y="859.0" width="360" height="42" rx="8" fill="#e7f1ff" stroke="#0d6efd" stroke-width="1.6"/>
+<text x="450" y="879.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">Server memvalidasi input, CSRF, dan same-origin</text>
+<rect x="270.0" y="935.0" width="360" height="60" rx="8" fill="#d1e7dd" stroke="#198754" stroke-width="1.6"/>
+<text x="450" y="955.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">BEGIN TRANSACTION</text>
+<text x="450" y="973.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">kunci baris produk (SELECT ... FOR UPDATE)</text>
+<polygon points="450,1027.0 610.0,1075 450,1123.0 290.0,1075" fill="#fff3cd" stroke="#e0a800" stroke-width="1.5"/>
+<text x="450" y="1066.5" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#212529" font-weight="normal" text-anchor="middle">Semua produk aktif &amp;</text>
+<text x="450" y="1083.5" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#212529" font-weight="normal" text-anchor="middle">stok cukup? (harga dari DB)</text>
+<rect x="270.0" y="1160.0" width="360" height="60" rx="8" fill="#d1e7dd" stroke="#198754" stroke-width="1.6"/>
+<text x="450" y="1180.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">INSERT orders (kode INV...) lalu</text>
+<text x="450" y="1198.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">INSERT order_items (snapshot nama &amp; harga)</text>
+<rect x="270.0" y="1240.0" width="360" height="60" rx="8" fill="#d1e7dd" stroke="#198754" stroke-width="1.6"/>
+<text x="450" y="1260.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">UPDATE products: stok = stok - qty</text>
+<text x="450" y="1278.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">DELETE cart_items milik pembeli</text>
+<rect x="270.0" y="1319.0" width="360" height="42" rx="8" fill="#d1e7dd" stroke="#198754" stroke-width="1.6"/>
+<text x="450" y="1339.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">COMMIT (semua perubahan disimpan permanen)</text>
+<rect x="270.0" y="1380.0" width="360" height="60" rx="8" fill="#e7f1ff" stroke="#0d6efd" stroke-width="1.6"/>
+<text x="450" y="1400.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">Tampilkan Detail Pesanan</text>
+<text x="450" y="1418.0" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#212529" font-weight="normal" text-anchor="middle">(kode pesanan, status: menunggu pembayaran)</text>
+<rect x="380" y="1470" width="140" height="40" rx="20" fill="#dc3545" stroke="#212529" stroke-width="1.6"/>
+<text x="450" y="1495" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff" font-weight="bold" text-anchor="middle">SELESAI</text>
+<polyline points="450,100 450,120" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<polyline points="450,180 450,195" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<polyline points="450,255 450,277" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<polyline points="450,373 450,400" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="458" y="390.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#198754" font-weight="bold" text-anchor="start">Ya</text>
+<polyline points="450,460 450,487" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<polyline points="450,583 450,610" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="458" y="600.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#198754" font-weight="bold" text-anchor="start">Ya</text>
+<polyline points="450,670 450,694" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<polyline points="450,736 450,779" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<polyline points="450,821 450,859" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<polyline points="450,901 450,935" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<polyline points="450,995 450,1027" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<polyline points="450,1123 450,1160" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="458" y="1145.5" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#198754" font-weight="bold" text-anchor="start">Ya</text>
+<polyline points="450,1220 450,1240" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<polyline points="450,1300 450,1319" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<polyline points="450,1361 450,1380" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<polyline points="450,1440 450,1470" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="40" y="297" width="190" height="56" rx="8" fill="#f8f9fa" stroke="#6c757d" stroke-width="1.5"/>
+<text x="135" y="321" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#212529" font-weight="normal" text-anchor="middle">Halaman Login / Daftar</text>
+<text x="135" y="339" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6c757d" font-weight="normal" text-anchor="middle">(password di-hash, sesi aman)</text>
+<polyline points="300,325 230,325" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="260" y="317" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#dc3545" font-weight="bold" text-anchor="middle">Tidak</text>
+<polyline points="135,297 135,225 290,225" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="710" y="505" width="200" height="60" rx="8" fill="#f8d7da" stroke="#dc3545" stroke-width="1.5"/>
+<text x="810" y="529" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#212529" font-weight="normal" text-anchor="middle">Tampilkan pesan stok</text>
+<text x="810" y="547" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#212529" font-weight="normal" text-anchor="middle">tidak cukup / produk habis</text>
+<polyline points="600,535 710,535" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="640" y="527" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#dc3545" font-weight="bold" text-anchor="middle">Tidak</text>
+<polyline points="810,505 810,225 610,225" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="710" y="1039" width="200" height="72" rx="8" fill="#f8d7da" stroke="#dc3545" stroke-width="1.5"/>
+<text x="810" y="1065" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#212529" font-weight="normal" text-anchor="middle">ROLLBACK (batalkan semua)</text>
+<text x="810" y="1083" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#212529" font-weight="normal" text-anchor="middle">+ pesan kesalahan,</text>
+<text x="810" y="1101" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#212529" font-weight="normal" text-anchor="middle">pembeli kembali ke keranjang</text>
+<polyline points="610,1075 710,1075" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="645" y="1067" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#dc3545" font-weight="bold" text-anchor="middle">Tidak</text>
+<polyline points="810,1039 810,715 620,715" fill="none" stroke="#495057" stroke-width="1.6" marker-end="url(#arr)"/></svg>

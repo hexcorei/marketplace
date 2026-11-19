@@ -1,0 +1,32 @@
+.product-card .product-thumb {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    background: #e9ecef;
+}
+.product-card {
+    transition: box-shadow .15s ease-in-out, transform .15s ease-in-out;
+}
+.product-card:hover {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .12);
+    transform: translateY(-2px);
+}
+.product-detail-img {
+    width: 100%;
+    max-height: 520px;
+    object-fit: contain;
+    background: #fff;
+}
+.cart-thumb {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    background: #e9ecef;
+}
+.qty-input {
+    max-width: 90px;
+}
+.text-prewrap {
+    white-space: pre-wrap;
+    word-break: break-word;
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Tidak ada gambar">
+  <rect width="400" height="400" fill="#e9ecef"/>
+  <g fill="none" stroke="#adb5bd" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="110" y="130" width="180" height="140" rx="12"/>
+    <circle cx="165" cy="180" r="14"/>
+    <path d="M118 262l52-52 36 36 28-28 48 48"/>
+  </g>
+  <text x="200" y="320" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#868e96">Tidak ada gambar</text>
+</svg>
